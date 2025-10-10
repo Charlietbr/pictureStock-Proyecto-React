@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  --fuente-secundaria: 'Sour Gummy', cursive;
+
+  --color-principal: rgba(71, 12, 96, 0.87);
+  --color-sombra: rgba(111, 40, 119, 0.401);
+  --color-secundario:rgba(239, 159, 61, 0.87);
+  --bg-color: #e8e8e8;
+  --bg-color-light: rgb(255, 255, 255);
+
+  --borde-turquesa: rgb(0, 200, 255);
+  --borde-rosa: rgb(255, 0, 153);
+
+  color: var(--color-principal);
+  background-color: var(--bg-color);
+
+  --escala: 1.05;
+  --rotacion: 2deg;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --time-transition: 200ms ease-in-out;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-principal);
+  text-decoration: none;
+  transition: var(--time-transition);
+  
+}
+
+
+
+
+

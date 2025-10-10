@@ -1,0 +1,109 @@
+.navbar{
+
+
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+    height: 100px;
+
+    padding: 0px 20px 0px 10px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    
+
+.logocontainer{
+    display: flex;
+    justify-content: start;
+    width: 30%;
+}
+
+#imagestocklogo{
+
+    width: 350px;
+    transition: 0ms;
+}
+
+.searchcontainer{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.linkscontainer{
+    font-size: larger;
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    gap: 30px;
+}
+
+    .linkscontainerSmall{
+    display: none;
+    }
+
+
+
+.search {
+    
+    /* all: unset;   nunca voy a escapar del estilo de chrome...  BOTÓN CIERRE, COLOR AZUL */
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--color-principal);
+    color: var(--bg-color);
+    padding-left: 20px;
+    
+}
+
+.search::placeholder {
+    color: var(--bg-color);
+}
+
+@media (max-width: 1300px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-top: 20px;
+        margin-bottom: 80px;
+
+    }
+    .logocontainer{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+    #imagestocklogo{
+        width: 400px;
+
+    }
+    .searchcontainer{
+        width: 400px;
+    }
+    .search{
+
+        min-width: 300px;
+    }
+
+    .linkscontainer{
+        display: none;
+    }
+
+    .linkscontainerSmall{
+        width: 400px;
+
+    margin-top: 10px;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    }
+}
+

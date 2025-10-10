@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 2em;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+#logofooter{
+    height: 72px;
+}
+
+@media (max-width: 1300px){
+    .footer{
+        font-size: 0.7em;
+    }
+}
