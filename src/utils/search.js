@@ -31,8 +31,6 @@ export async function search(pagesAmount, topic, resultados, currentPage) {
             const userImg = user.profile_image.medium;
             const userName = user.name;
 
-            //!createCard(slug, urlRegular, likes, total_photos, userName, userImg, created_at, currentPage);
-            //console.log(foto)
           });
 
         } else {
@@ -53,58 +51,4 @@ export async function search(pagesAmount, topic, resultados, currentPage) {
 
 };
 
-
-
-
-//*--------------------------------Realizar una búsqueda desde searchInput
-
-// const busqueda = (ev) => {
-//   if (ev.key === 'Enter') {
-//     const nuevoTopic = searchInput.value.trim();
-
-//       if (!nuevoTopic) 
-//         return;
-
-//     topic = nuevoTopic; 
-//     limpiarApp();
-//     currentPage = 1;
-//     bottomMessage.classList.remove('visibleFooterMessage');        
-//     respuesta(pagesAmount, topic, resultados, currentPage);
-//   }
-// };
-
-
-//*--------------------------------Ampliar resultados al hacer scroll. Max 5 páginas.
-
-
-// const subir = () => (window.scrollTo({top: 0, behavior: "smooth"}));
-
-// const app = document.querySelector('#app');
-// const bottomMessage = document.createElement('footer');
-// bottomMessage.classList.add('footerMessage');
-// bottomMessage.textContent = 'Has alcanzado el límite de búsquedas permitidas. Pulsa para volver arriba.' ;
-// app.appendChild(bottomMessage);
-
-// bottomMessage.addEventListener('click', subir);
-
-
-
-
-// const ampliaBusqueda = () => {  
-
-//   if (currentPage < 5){
-//     currentPage +=1; 
-//      respuesta(pagesAmount, topic, resultados, currentPage);
-//   } else {
-//     bottomMessage.classList.add('visibleFooterMessage');
-    
-//     }
-  
-    
-  
-// };
-
-
-// searchInput.addEventListener('keydown', busqueda);
-// window.addEventListener('scrollend', ampliaBusqueda);
 

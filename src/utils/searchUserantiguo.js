@@ -35,8 +35,6 @@ export async function searchUser(pagesAmount, username, resultados, currentPage)
             const userImg = user.profile_image.medium;
             const userName = user.name;
 
-            //!createCard(slug, urlRegular, likes, total_photos, userName, userImg, created_at, currentPage);
-            //console.log(foto)
           });
 
         } else {
