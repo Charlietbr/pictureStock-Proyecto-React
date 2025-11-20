@@ -36,7 +36,7 @@ const History = () => {
 
   return (
     <div className='history'>
-      <h1>★</h1>
+      <h2>Tus favoritos</h2>
       <section className='favContainer'>
 
                 {favoritos.length > 0 ? (

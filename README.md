@@ -1,5 +1,7 @@
 # pictureStock --> imageStock
 
+v01. 10 de octubre de 2025.
+
       Bienvenido a imageStock, un proyecto basado en el proyecto "Pinteresante" que recrea y amplía sus funciones pero basado en React y añadiendo algunas páginas para separar la búsqueda inicial de los detalles del autor o los favoritos del usuario. Se utiliza la api de Unsplash.
       
       La página de bienvenida da acceso tanto a las nuevas búsquedas como a los favoritos que hayamos guardado anteriormente desde el cuadro de información de cada imagen, que se desplegará al situar el puntero sobre ella.
@@ -11,4 +13,15 @@
 
 ## 
 
-v01. 10 de octubre de 2025. Carlos Campillo Matías.
+v02. XX de noviembre de 2025.
+
+
+      Limpieza de título de la página y añadido de meta etiquetas.
+
+      Componente UserCard renombrado como FavoritesCard.
+
+      Se ha pasado la lógica de los propios componentes Card y FavoritesCard a un custom hook src/hooks/useCard.jsx
+      
+      Corregida la función de reducirResultados de la página Results. Reducía de uno en uno en lugar de diez en diez.
+
+      

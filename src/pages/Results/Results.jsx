@@ -32,7 +32,8 @@ const Results = () => {
                               window.scrollTo({top: 0, behavior: 'smooth'});
   };
   const aumentarResultados = () => setPorPagina(prev => prev + 10);
-  const reducirResultados = () => setPorPagina(prev => Math.max(prev - 1, 1));
+
+  const reducirResultados = () => setPorPagina(prev => Math.max(prev - 10, 1));
 
   return (
     <div className='results'>

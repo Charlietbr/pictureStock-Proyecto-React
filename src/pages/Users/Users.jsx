@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import './Users.css'
-import UserCard from '../../components/UserCard/UserCard'
+import UserCard from '../../components/FavoritesCard/FavoritesCard'
 import { searchUserImg } from '../../utils/searchUser'
 
 const Users = () => {

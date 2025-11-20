@@ -16,6 +16,10 @@
     scrollbar-color: var(--bg-color-light) var(--bg-color);
 }
 
+h2{
+    padding: 25px 0px 20px 0px;
+}
+
 .favContainer {
     display: flex;
     flex-direction: row;
