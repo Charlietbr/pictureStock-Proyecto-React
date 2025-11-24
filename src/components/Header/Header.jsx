@@ -1,5 +1,5 @@
-import React, { useContext, useState, useEffect, useRef } from 'react'
-import { data, Link, useNavigate } from 'react-router-dom'
+import React, { useContext, useEffect, useRef } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 import './Header.css'
 import { search, pagesAmount, topic, resultados, currentPage } from '../../utils/search'

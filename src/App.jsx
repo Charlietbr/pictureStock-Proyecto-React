@@ -1,14 +1,12 @@
 import React from 'react'
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 import Header from './components/Header/Header'
 import MainFrame from './components/MainFrame/MainFrame'
 import Footer from './components/Footer/Footer'
 
 import './App.css'
 
-
-//===============================================================================
 
 export default function App() {
 
