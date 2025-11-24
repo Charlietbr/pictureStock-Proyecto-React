@@ -51,8 +51,10 @@ h2{
 
 .favOptions{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 .optionButton {
