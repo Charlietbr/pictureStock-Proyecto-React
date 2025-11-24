@@ -13,7 +13,7 @@ v01. 10 de octubre de 2025.
 
 ## 
 
-v02. XX de noviembre de 2025.
+v02. 24 de noviembre de 2025.
 
 
       Limpieza de título de la página y añadido de meta etiquetas.
@@ -23,5 +23,7 @@ v02. XX de noviembre de 2025.
       Se ha pasado la lógica de los propios componentes Card y FavoritesCard a un custom hook src/hooks/useCard.jsx
       
       Corregida la función de reducirResultados de la página Results. Reducía de uno en uno en lugar de diez en diez.
+
+      Ajustes de css en los tamaños de algunos elementos de FavoritesCard y logocontainer del header.
 
       
