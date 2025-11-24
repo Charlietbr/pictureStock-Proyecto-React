@@ -14,7 +14,10 @@
 
   --borde-turquesa: rgb(0, 200, 255);
   --borde-rosa: rgb(255, 0, 153);
+  
+  --txt-descripcion: rgb(205, 161, 116);
 
+  
   color: var(--color-principal);
   background-color: var(--bg-color);
 

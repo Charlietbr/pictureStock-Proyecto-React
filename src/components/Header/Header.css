@@ -79,10 +79,10 @@
     .logocontainer{
     display: flex;
     justify-content: center;
-    width: 30%;
+    width: 400px;
 }
     #imagestocklogo{
-        width: 400px;
+        width: 100%
 
     }
     .searchcontainer{

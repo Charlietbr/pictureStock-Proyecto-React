@@ -79,6 +79,7 @@ h2{
 
 .description{
     font-style: italic;
+    color: var(--txt-descripcion);
 }
 
 .usr{
